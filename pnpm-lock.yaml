@@ -1,0 +1,60 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@babel/types': ^7.14.5
+  ws: 0.4.32
+
+dependencies:
+  '@babel/types': 7.14.5
+  ws: 0.4.32
+
+packages:
+
+  /@babel/helper-validator-identifier/7.14.5:
+    resolution: {integrity: sha512-5lsetuxCLilmVGyiLEfoHBRX8UCFD+1m2x3Rj97WrW3V7H3u4RWRXA4evMjImCsin2J2YT0QaVDGf+z8ondbAg==}
+    engines: {node: '>=6.9.0'}
+    dev: false
+
+  /@babel/types/7.14.5:
+    resolution: {integrity: sha512-M/NzBpEL95I5Hh4dwhin5JlE7EzO5PHMAuzjxss3tiOBD46KfQvVedN/3jEPZvdRvtsK2222XfdHogNIttFgcg==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-validator-identifier': 7.14.5
+      to-fast-properties: 2.0.0
+    dev: false
+
+  /commander/2.1.0:
+    resolution: {integrity: sha1-0SG7roYNmZKj1Re6lvVliOR8Z4E=}
+    engines: {node: '>= 0.6.x'}
+    dev: false
+
+  /nan/1.0.0:
+    resolution: {integrity: sha1-riT4hQgY1mL8q1rPfzuVv6oszzg=}
+    dev: false
+
+  /options/0.0.6:
+    resolution: {integrity: sha1-7CLTEoBrtT5zF3Pnza788cZDEo8=}
+    engines: {node: '>=0.4.0'}
+    dev: false
+
+  /tinycolor/0.0.1:
+    resolution: {integrity: sha1-MgtaUtg6u1l42Bo+iH1K77FaYWQ=}
+    engines: {node: '>=0.4.0'}
+    dev: false
+
+  /to-fast-properties/2.0.0:
+    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
+    engines: {node: '>=4'}
+    dev: false
+
+  /ws/0.4.32:
+    resolution: {integrity: sha1-eHphVEFPPJntg8V3IVOyD+sM7DI=}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      commander: 2.1.0
+      nan: 1.0.0
+      options: 0.0.6
+      tinycolor: 0.0.1
+    dev: false
